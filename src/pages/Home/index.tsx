@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-function App() {
+export const Home = () => {
   return (
     <main className="App">
       <header className="App-header">
@@ -10,6 +10,4 @@ function App() {
       </header>
     </main>
   );
-}
-
-export default App;
+};
